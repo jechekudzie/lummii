@@ -89,7 +89,7 @@
 
         .slick-slide {
             display: none;
-            float: l;
+            float: left;
             height: 100%;
             min-height: 1px;
         }
@@ -142,7 +142,7 @@
     <!--====== Start Banner section ======-->
     <section class="banner-area-v1">
         <div class="hero-slider-one">
-            <div class="single-hero bg_cover" style="background-image: url('banner.jpeg');">
+            <div class="single-hero bg_cover" style="background-image: url('solar.jpeg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -170,8 +170,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="">
-                        <img style="width: 785px;height: 500px;margin-left: 10px; margin-top: 30px;" src="{{asset('solar/about.png')}}" alt="">
+                    <div style="margin-top: 120px;" class="">
+                        <img src="{{asset('solar/about.png')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;"  alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -208,7 +208,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div style="margin-left: -20px;" >
+                    <div class="">
                         <div class="section-title mb-3">
                             <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
                         </div>
@@ -234,14 +234,18 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div>
-                        <img style="width: 785px;height: 500px;margin-top: 80px;" src="{{asset('solar/about1.jpg')}}" alt="">
+                    <div style="margin-top: 120px;">
+                        <img  src="{{asset('solar/about1.jpg')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;" alt="">
                     </div>
                 </div>
 
-                <div style="margin-left: -20px;margin-top: 20px;" class="col-lg-8">
-                    <!-- Read More -->
-                    <a href="{{url('/renewable-energy')}}" class="main-btn">Learn More About Sustainable Energy for a Brighter Africa</a>
+                <hr/>
+                <br/>
+                <br/>
+                <div style="margin-top: 30px;" class="col-lg-8">
+                    <a style="background-color:#f9580e;color: white; " href="{{url('/renewable-energy')}}" class="btn">
+                        Learn More About Sustainable Energy for a Brighter Africa <i class="fa fa-arrow-right"></i>
+                    </a>
                </div>
             </div>
         </div>

@@ -56,6 +56,10 @@
             transition: all 200ms ease-in;
             transform: scale(1.5);
         }
+
+        .active {
+            color: black !important;
+        }
     </style>
 
 </head>
@@ -88,14 +92,14 @@
         <div class="nav-container">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 logo-col col-6">
+                    <div class="col-lg-2 logo-col col-6">
                         <div class="site-branding">
                             <div class="brand-logo">
-                                <a href="{{url('/')}}"><img src="{{asset('logo/Lummii_Energy_Full_Logo_Full_Color_RGB_212px@72ppi.png')}}" alt=""></a>
+                                <a href="{{route('home')}}"><img src="{{asset('logo/Lummii_Energy_Full_Logo_Full_Color_RGB_212px@72ppi.png')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-6">
+                    <div class="col-lg-10 col-6">
                         <div class="nav-menu">
                             <!-- Navbar Close Icon -->
                             <div class="navbar-close">
@@ -103,14 +107,33 @@
                             </div>
                             <nav class="main-menu">
                                 <ul>
-
-                                    <li class="menu-item"><a href="{{url('/')}}">Home</a></li>
-                                    <li class="menu-item"><a href="{{url('/eniscope')}}">Eniscope</a></li>
-                                    <li class="menu-item"><a href="{{url('/case_studies')}}">Case Studies</a></li>
-                                    <li class="menu-item"><a href="{{url('/solutions')}}">Solutions</a></li>
-                                    <li class="menu-item"><a href="{{url('/technologies')}}">Technologies</a></li>
-                                    <li class="menu-item"><a href="{{url('/about')}}">About us</a></li>
-                                    <li class="menu-item"><a href="{{url('/contact')}}">Contact</a></li>
+                                    <li class="menu-item"><a style="color: #f9580e;" href="{{route('home')}}"
+                                           class="{{ Request::routeIs('/') ? 'active' : '' }}"
+                                        >Home</a>
+                                    </li>
+                                    <li class="menu-item"><a href="{{route('eniscope')}}" class="{{ Request::routeIs('eniscope') ? 'active' : '' }}">Eniscope
+                                        </a>
+                                    </li>
+                                    <li class="menu-item"><a href="{{route('renewable-energy')}}"
+                                                             class="{{ Request::routeIs('renewable-energy') ? 'active' : '' }}"
+                                        >Renewable Energy</a>
+                                    </li>
+                                    <li class="menu-item"><a href="{{route('case_studies')}}"
+                                                             class="{{ Request::routeIs('case_studies') ? 'active' : '' }}"
+                                        >Case Studies</a></li>
+                                    <li class="menu-item"><a href="{{route('solutions')}}"
+                                                             class="{{ Request::routeIs('solutions') ? 'active' : '' }}"
+                                        >Solutions</a>
+                                    </li>
+                                    <li class="menu-item"><a href="{{route('technologies')}}"
+                                                             class="{{ Request::routeIs('technologies') ? 'active' : '' }}"
+                                        >Technologies</a></li>
+                                    <li class="menu-item"><a href="{{route('about')}}"
+                                                             class="{{ Request::routeIs('about') ? 'active' : '' }}"
+                                        >About us</a></li>
+                                    <li class="menu-item"><a href="{{route('contact')}}"
+                                                             class="{{ Request::routeIs('contact') ? 'active' : '' }}"
+                                        >Contact</a></li>
 
                                 </ul>
                             </nav>

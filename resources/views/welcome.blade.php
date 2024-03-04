@@ -162,14 +162,16 @@
             </div>
         </div>
         <div class="hero-arrows"></div>
-    </section><!--====== End Banner section ======-->
+    </section>
+    <!--====== End Banner section ======-->
+
     <!--====== Start About section ======-->
     <section style="padding:5%;" class="about-area-v1 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="about-img-box">
-                        <img src="{{asset('monitor.jpg')}}" alt="">
+                    <div class="">
+                        <img style="width: 785px;height: 500px;margin-left: 10px; margin-top: 30px;" src="{{asset('solar/about.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -177,13 +179,13 @@
                         <div class="section-title mb-35">
                             <h2>About <span>Lummii</span></h2>
                         </div>
-                        <p>By combining powerful hardware with intuitive cloud based software we harness the power of
+                        <p style="color: black;text-align: justify">By combining powerful hardware with intuitive cloud based software we harness the power of
                             Big Data, IoT and AI to provide the most comprehensive energy management solution available
                             to businesses across various sectors including Industry, Mining, QSR, Super & Convenience
                             Stores, Commercial etc. We guarantee energy savings that directly impact your bottom line
                             whilst in the process helping you to meet your business’ climate targets.
 
-                        <p>
+                        <p style="color: black;text-align: justify">
                             In a world where energy challenges are growing ranging from the generation type’s impact on
                             climate change, energy security and spiralling costs, Lummii Energy brings the BEST energy
                             to your business which is ENERGY EFFICIENCY; it’s easier to access than wind and solar,
@@ -198,7 +200,55 @@
                 </div>
             </div>
         </div>
-    </section><!--====== End About section ======-->
+    </section>
+    <!--====== End About section ======-->
+
+    <!--====== Start About Solar section ======-->
+    <section class="about-area-v1 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div style="margin-left: -20px;" >
+                        <div class="section-title mb-3">
+                            <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
+                        </div>
+
+                        <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to unlocking Africa's vast solar potential
+                            through cutting-edge rooftop solar solutions. Our mission is driven by the stark energy
+                            divide, with 600 million Africans lacking electricity despite abundant solar resources.
+                            Prioritizing renewable generation to address frequent load shedding, we innovate in solar
+                            financing to tailor solutions for Africa's unique market needs.</p>
+                        <br/>
+                        <p style="color: black;text-align: justify">
+                            With a focus on sustainable
+                            energy access, Lummii Solar is committed to bridging the energy gap, ensuring our approach
+                            aligns with our ethos of delivering energy efficiency and impactful, bankable solar models
+                            across the continent.
+                        </p>
+                        <br/>
+
+                        <h6 style="font-weight: bold;font-size: 20px;text-align: justify">While we have interests in
+                            Eastern Europe, our heart is in Africa. Our mission is to bridge the vast energy divide with
+                            clean, renewable power, harnessing the abundant sun irradiance across the continent, their
+                            greatest natural resource.</h6>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img style="width: 785px;height: 500px;margin-top: 80px;" src="{{asset('solar/about1.jpg')}}" alt="">
+                    </div>
+                </div>
+
+                <div style="margin-left: -20px;margin-top: 20px;" class="col-lg-8">
+                    <!-- Read More -->
+                    <a href="{{url('/renewable-energy')}}" class="main-btn">Learn More About Sustainable Energy for a Brighter Africa</a>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!--====== End About section ======-->
+
+
     <!--====== Start Project-area section ======-->
     <section class="project-area-v1">
         <div class="project-main-section">
@@ -301,20 +351,6 @@
                         </div>
                     </div>
 
-                    {{--<div class="col-lg-4">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="{{asset('billing.jpg')}}" style="width: 400px; height: 200px" alt="">
-
-                            </div>
-                            <div class="project-info">
-                                <span class="span">Accurately Bill Your Tenants</span>
-                                <h4><a href="#">Tenants Billing</a></h4>
-                            </div>
-                        </div>
-                    </div>--}}
-
-
                 </div>
             </div>
         </div>
@@ -334,13 +370,13 @@
                                         <div class="section-title section-white-title mb-30">
                                             <span class="span">ISO 50001 Energy Management</span>
                                         </div>
-                                        <p style="font-size: large; padding: 2%;">
+                                        <p style="font-size: large; padding: 2%;text-align: justify">
                                             This defines our unique approach to energy management which we use across
                                             the globe. It is the ethos that standardises all our operations with a
                                             single quality of service and guarantees our clients the best possible
                                             energy management standards.
                                         </p>
-                                        <p style="font-size: large; padding: 2%;">
+                                        <p style="font-size: large; padding: 2%;text-align: justify">
                                             SMARRT was put together with the global standard for energy management ISO
                                             50001 in mind. ISO 50001 is the benchmark and process all companies should
                                             adhere to when managing their energy consumption. We’ve codified its
@@ -561,7 +597,6 @@
         </div>
     </section>
     <!--====== End FEatures section ======-->
-
 
     <div class="container">
         <h2 align="center">OUR PARTNER NETWORK CLIENTS</h2>

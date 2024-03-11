@@ -111,13 +111,14 @@
                                            class="{{ Request::routeIs('/') ? 'active' : '' }}"
                                         >Home</a>
                                     </li>
-                                    <li class="menu-item"><a href="{{route('eniscope')}}" class="{{ Request::routeIs('eniscope') ? 'active' : '' }}">Eniscope
-                                        </a>
-                                    </li>
                                     <li class="menu-item"><a href="{{route('renewable-energy')}}"
                                                              class="{{ Request::routeIs('renewable-energy') ? 'active' : '' }}"
                                         >Renewable Energy</a>
                                     </li>
+                                    <li class="menu-item"><a href="{{route('eniscope')}}" class="{{ Request::routeIs('eniscope') ? 'active' : '' }}">Eniscope
+                                        </a>
+                                    </li>
+
                                     <li class="menu-item"><a href="{{route('case_studies')}}"
                                                              class="{{ Request::routeIs('case_studies') ? 'active' : '' }}"
                                         >Case Studies</a></li>

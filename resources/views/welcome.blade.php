@@ -137,21 +137,35 @@
             justify-content: center;
         }
 
+        .customer-logos .slide {
+            display: flex;
+            align-items: flex-end; /* align logos to the bottom */
+            height: auto; /* set a standard height for all slides */
+            overflow: hidden; /* prevents oversized logos from breaking the layout */
+        }
+
+        .customer-logos .slide img {
+            max-height: 100%; /* ensures the logos do not exceed their container */
+            width: auto; /* maintain aspect ratio */
+            vertical-align: bottom; /* align the image to the bottom if flex is not supported */
+        }
+
+
     </style>
 
     <!--====== Start Banner section ======-->
     <section class="banner-area-v1">
         <div class="hero-slider-one">
-            <div class="single-hero bg_cover" style="background-image: url('solar.jpeg');">
+            <div class="single-hero bg_cover" style="background-image: url('banner.jpeg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero-content">
                                 <h1>
-                                    Intuitive Energy Management
+                                    Intuitive Energy Solutions
                                 </h1>
                                 <h4 style="font-size: 30px;">
-                                    Energy Efficiency & Carbon Footprint Reduction with <strong
+                                    Renewable Energy & Energy Efficiency with <strong
                                         style="font-weight: bold;color: #f9580e;">ZERO CAPITAL OUTLAY</strong> From You.
                                 </h4>
                                 <a href="{{url('/solutions')}}" class="main-btn">Exploring More</a>
@@ -169,9 +183,39 @@
     <section style="padding:5%;" class="about-area-v1 pb-120">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div style="margin-top: 120px;" class="">
-                        <img src="{{asset('solar/about.png')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;"  alt="">
+                <div   class="col-lg-6">
+
+                    <div style="margin-top: 150px" id="mySlider" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#mySlider" data-slide-to="0" class="active"></li>
+                            <li data-target="#mySlider" data-slide-to="1"></li>
+                            <li data-target="#mySlider" data-slide-to="2"></li>
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/Hospital.jpg')}}" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/about.jpg')}}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/Hut Solar.png')}}" alt="Second slide">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#mySlider" role="button" data-slide="prev">
+                            <span style="color: red" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#mySlider" role="button" data-slide="next">
+                            <span style="color: red" class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -179,22 +223,28 @@
                         <div class="section-title mb-35">
                             <h2>About <span>Lummii</span></h2>
                         </div>
-                        <p style="color: black;text-align: justify">By combining powerful hardware with intuitive cloud based software we harness the power of
-                            Big Data, IoT and AI to provide the most comprehensive energy management solution available
+                        <p style="color: black;text-align: justify">
+
+                        <p style="color: black;text-align: justify">
+                            We are a next generation climate conscious energy business committed to revolutionising the
+                            energy landscape by aggressively scaling solar generation and adopting energy efficiency.
+                            Our vision is to be a catalyst for a sustainable and uninterrupted energy future, providing
+                            reliable and fully funded solar generation and energy efficiency solutions.
+                            Under our solar division we specialise in rooftop solar solutions which are then packaged in
+                            a unique innovative way to create bankable & scaleable solutions per country.
+
+                            <br/>
+                            Under our energy efficiency division we combine powerful hardware with intuitive cloud based
+                            software and harness the power of big data, IOT and AI to provide the most comprehensive
+                            energy management solution available to businesses.
+                            <br>
+                            By combining powerful hardware with intuitive cloud
+                            based software we harness the power of Big Data, IoT and AI to provide the most comprehensive energy management solution available
                             to businesses across various sectors including Industry, Mining, QSR, Super & Convenience
                             Stores, Commercial etc. We guarantee energy savings that directly impact your bottom line
                             whilst in the process helping you to meet your business’ climate targets.
-
-                        <p style="color: black;text-align: justify">
-                            In a world where energy challenges are growing ranging from the generation type’s impact on
-                            climate change, energy security and spiralling costs, Lummii Energy brings the BEST energy
-                            to your business which is ENERGY EFFICIENCY; it’s easier to access than wind and solar,
-                            cleaner than geothermal and yet is the cheapest to access. Statistics say that 43% of the
-                            energy produced today is wasted and if we
-                            could save this 43% we could turnoff all coal power plants in the world.
                         </p>
-                        <h4>At Lummii our mission is to bring Energy Efficiency to your business with ZERO Capital
-                            outlay from you.</h4>
+                        <h4>At Lummii our mission is to bring fully funded innovative off the book every solution addresses.</h4>
 
                     </div>
                 </div>
@@ -203,8 +253,23 @@
     </section>
     <!--====== End About section ======-->
 
+    <section style="margin-top: 15px;" class="cta-area-v1">
+        <div class="container-fluid">
+            <div class="cta-wrapper main-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="section-title section-white-title">
+                            <h2>Powering Africa with the Sun, <span style="font-size: 25px;">Where every ray of sunshine brings us closer to energy independence and environmental stewardship.</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--====== Start About Solar section ======-->
-    <section class="about-area-v1 pb-120">
+    <section style="margin-top: 30px;" class="about-area-v1 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -213,7 +278,8 @@
                             <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
                         </div>
 
-                        <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to unlocking Africa's vast solar potential
+                        <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to
+                            unlocking Africa's vast solar potential
                             through cutting-edge rooftop solar solutions. Our mission is driven by the stark energy
                             divide, with 600 million Africans lacking electricity despite abundant solar resources.
                             Prioritizing renewable generation to address frequent load shedding, we innovate in solar
@@ -234,8 +300,37 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div style="margin-top: 120px;">
-                        <img  src="{{asset('solar/about1.jpg')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;" alt="">
+                    <div style="margin-top: 150px" id="mySolar" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#mySolar" data-slide-to="0" class="active"></li>
+                            <li data-target="#mySolar" data-slide-to="1"></li>
+                            <li data-target="#mySolar" data-slide-to="2"></li>
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/Candles.png')}}" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/Hse.png')}}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img style="width: 100%;height: 400px" class="d-block w-100" src="{{asset('solar/Hut Solar.png')}}" alt="Second slide">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#mySolar" role="button" data-slide="prev">
+                            <span style="color: red" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#mySolar" role="button" data-slide="next">
+                            <span style="color: red" class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
 
@@ -246,7 +341,7 @@
                     <a style="background-color:#f9580e;color: white; " href="{{url('/renewable-energy')}}" class="btn">
                         Learn More About Sustainable Energy for a Brighter Africa <i class="fa fa-arrow-right"></i>
                     </a>
-               </div>
+                </div>
             </div>
         </div>
     </section>
@@ -261,7 +356,7 @@
             <div class="container">
                 <div class="col-lg-8">
                     <div class="section-title section-white-title mb-100">
-                        <h2>The best energy is <span>efficiency.</span></h2>
+                        <h2>Treble Renewables and Double <span>Efficiency, a COP28 Objective.</span></h2>
                     </div>
                 </div>
             </div>
@@ -282,6 +377,22 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Hse.png')}}" style="width: 400px; height: 200px"
+                                     style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Powering Progress</span>
+                                <h4><a href="#">One Rooftop at a Time</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="col-lg-4">
                         <div class="project-item">
                             <div class="project-img">
@@ -294,6 +405,20 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Candles.png')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Sustainable Energy for a Brighter Africa</span>
+                                <h4><a href="#">Powering Africa with the Sun</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-4">
                         <div class="project-item">
                             <div class="project-img">
@@ -306,6 +431,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Rural Project.png')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Harness the Sun.</span>
+                                <h4><a href="#"> Empower Your Community</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-4">
                         <div class="project-item">
                             <div class="project-img">
@@ -605,7 +743,7 @@
     <div class="container">
         <h2 align="center">OUR PARTNER NETWORK CLIENTS</h2>
         <br/>
-        <section class="customer-logos slider">
+        <section class="customer-logos slider ">
 
             <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/mercedes.png')}}">
             </div>
@@ -622,7 +760,20 @@
             <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
                                     src="{{asset('clients/lap.png')}}"></div>
             <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
-                                    src="{{asset('clients/nandos.png')}}"></div>
+                                    src="{{asset('clients/nandos.png')}}">
+
+            </div>
+
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/trina.png')}}">
+            </div>
+
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/growatt.png')}}">
+            </div>
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/atess.jpeg')}}">
+            </div>
 
         </section>
     </div>

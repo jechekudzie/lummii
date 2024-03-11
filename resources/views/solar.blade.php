@@ -134,24 +134,47 @@
             justify-content: center;
         }
 
+        .scroll-container {
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .scroll-text {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll-left 10s linear infinite;
+        }
+
+        @keyframes scroll-left {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
     </style>
 
     <!--====== Start Banner section ======-->
     <section class="banner-area-v1">
         <div class="hero-slider-one">
-            <div class="single-hero bg_cover" style="background-image: url('solar/solar_banner.jpg');">
+            <div class="single-hero bg_cover"
+                 style="background-image: url('solar/Africa Energy Gap.png'); background-size: cover">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero-content">
                                 <h3 style="font-size: 40px;font-weight: bold;color:white;">
-                                    Sustainable Energy for  A Brighter Africa
+                                    Sustainable Energy for A Brighter Africa.
                                 </h3>
                                 <br/>
                                 <h4>
-                                    <strong style="font-weight: bold;color:white;font-size: 30px;">Powering Progress: One Rooftop at a Time.</strong>
+                                    <strong style="font-weight: bold;color:white;font-size: 30px;">Powering Progress,
+                                        One rooftop at a time!!</strong>
                                 </h4>
-                               {{-- <a href="{{url('#solar')}}" class="main-btn">Exploring More</a>--}}
+                                {{-- <a href="{{url('#solar')}}" class="main-btn">Exploring More</a>--}}
                             </div>
                         </div>
                     </div>
@@ -161,9 +184,10 @@
         <div class="hero-arrows"></div>
     </section>
     <!--====== End Banner section ======-->
-
+    <br/>
+    <br/>
     <!--====== Start About Solar section ======-->
-    <section id="solar" style="margin-top: 40px;" class="about-area-v1 pb-120">
+    <section class="about-area-v1 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -172,7 +196,8 @@
                             <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
                         </div>
 
-                        <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to unlocking Africa's vast solar potential
+                        <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to
+                            unlocking Africa's vast solar potential
                             through cutting-edge rooftop solar solutions. Our mission is driven by the stark energy
                             divide, with 600 million Africans lacking electricity despite abundant solar resources.
                             Prioritizing renewable generation to address frequent load shedding, we innovate in solar
@@ -193,8 +218,35 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div style="margin-top: 120px;">
-                        <img  src="{{asset('solar/about1.jpg')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;" alt="">
+                    <div style="margin-top: 100px" id="mySolar" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#mySolar" data-slide-to="0" class="active"></li>
+                            <li data-target="#mySolar" data-slide-to="1"></li>
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="width: 100%;height: 400px" class="d-block w-100"
+                                     src="{{asset('solar/Candles.png')}}" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img style="width: 100%;height: 400px" class="d-block w-100"
+                                     src="{{asset('solar/Hse.png')}}" alt="Second slide">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#mySolar" role="button" data-slide="prev">
+                            <span style="color: red" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#mySolar" role="button" data-slide="next">
+                            <span style="color: red" class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span style="color: red" class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
 
@@ -211,17 +263,33 @@
     </section>
     <!--====== End About section ======-->
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                   <img src="{{asset('solar/solar.jpg')}}" class="img-fluid w-100 h-auto" style="object-fit: cover; height: 100%;" alt="">
+    <section style="margin-top: -65px;" class="cta-area-v1">
+        <div class="container-fluid">
+            <div class="cta-wrapper main-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="section-title section-white-title">
+                            <h2>Powering Africa with the Sun, <span style="font-size: 25px;">Where every ray of sunshine brings us closer to energy independence and environmental stewardship.</span>
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="service-details-section pt-120 pb-120">
+    {{--<section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <img src="{{asset('solar/solar.jpg')}}" class="img-fluid w-100 h-auto"
+                         style="object-fit: cover; height: 100%;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>--}}
+
+    <section class="service-details-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -241,7 +309,7 @@
                 <div class="col-lg-6">
                     <div class="service-details-wrapper">
                         <div class="service-content">
-                            <h3 style="margin-top: 30px"  class="title">Innovation in Solar Financing</h3>
+                            <h3 style="margin-top: 30px" class="title">Innovation in Solar Financing</h3>
                             <p style="text-align: justify">
                                 Our approach to solar isn't just about technology, which has already proven its worth,
                                 but also about innovative financing. Recognizing that traditional funding models don't

@@ -166,15 +166,13 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero-content">
-                                <h3 style="font-size: 40px;font-weight: bold;color:white;">
-                                    Sustainable Energy for A Brighter Africa.
-                                </h3>
-                                <br/>
-                                <h4>
-                                    <strong style="font-weight: bold;color:white;font-size: 30px;">Powering Progress,
-                                        One rooftop at a time!!</strong>
+                                <h1 style="font-size: 80px;">
+                                    Sustainable Energy for A Brighter Africa
+                                </h1>
+                                <h4 style="font-size: 30px;">
+                                    <strong
+                                        style="font-weight: bold;color: #f9580e;">POWERING PROGRESS, ONE ROOFTOP AT A TIME</strong>
                                 </h4>
-                                {{-- <a href="{{url('#solar')}}" class="main-btn">Exploring More</a>--}}
                             </div>
                         </div>
                     </div>
@@ -278,16 +276,6 @@
         </div>
     </section>
 
-    {{--<section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <img src="{{asset('solar/solar.jpg')}}" class="img-fluid w-100 h-auto"
-                         style="object-fit: cover; height: 100%;" alt="">
-                </div>
-            </div>
-        </div>
-    </section>--}}
 
     <section class="service-details-section">
         <div class="container">
@@ -295,7 +283,7 @@
                 <div class="col-lg-6">
                     <div class="service-details-wrapper">
                         <div class="service-content">
-                            <h3 style="margin-top: 30px" class="title">Renewables First, Efficiency Next</h3>
+                            <h3 style="margin-top: 30px" class="title">Renewables First, <span style="color: #f9580e">Efficiency Next</span> </h3>
                             <p style="text-align: justify">
                                 In a departure from the norm in developed countries, where energy efficiency precedes
                                 renewable solutions, we prioritize energy generation in Africa. Addressing the acute
@@ -309,7 +297,7 @@
                 <div class="col-lg-6">
                     <div class="service-details-wrapper">
                         <div class="service-content">
-                            <h3 style="margin-top: 30px" class="title">Innovation in Solar Financing</h3>
+                            <h3 style="margin-top: 30px" class="title">Innovation in  <span style="color: #f9580e">Solar Financing</span> </h3>
                             <p style="text-align: justify">
                                 Our approach to solar isn't just about technology, which has already proven its worth,
                                 but also about innovative financing. Recognizing that traditional funding models don't
@@ -324,7 +312,7 @@
                 <div style="padding-top: 25px;" class="col-lg-6">
                     <div class="service-details-wrapper">
                         <div class="service-content">
-                            <h3 class="title">Maximising Efficiency with Solar Power</h3>
+                            <h3 class="title"> <span style="color: #f9580e">Maximising Efficiency</span> with Solar Power</h3>
                             <p style="text-align: justify">
                                 Embrace the Future of Energy: Lummii Solar Solutions epitomise cutting-edge efficiency
                                 in harnessing solar power. By transforming Africa's radiant sunlight into clean
@@ -339,7 +327,7 @@
                 <div style="padding-top: 25px;" class="col-lg-6">
                     <div class="service-details-wrapper">
                         <div class="service-content">
-                            <h3 class="title">Community Benefits</h3>
+                            <h3 class="title">Community  <span style="color: #f9580e">Benefits</span> </h3>
                             <p style="text-align: justify">
                                 Lummii's Solar Solutions offer significant community benefits by providing sustainable
                                 and clean energy access, reducing reliance on fossil fuels, and empowering communities
@@ -354,7 +342,7 @@
         </div>
     </section>
 
-    <div style="margin-bottom: 30px; margin-top: -50px; text-align: center;" class="row">
+    <div style="margin-bottom: 30px; margin-top: 20px; text-align: center;" class="row">
         <div class="col-lg-12">
             <div>
                 <div>

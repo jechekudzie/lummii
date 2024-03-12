@@ -15,6 +15,7 @@
             text-align: left;
             padding: 8px;
         }
+
         .slick-slide {
             margin: 0px 20px;
         }
@@ -137,7 +138,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="breadcrumbs-content">
-                        <h1>About Lummii Energy</h1>
+                        <h1>Lummii Energy Efficiency Division</h1>
                         {{--<ul class="link">
                             <li><a href="index.html">Home</a></li>
                             <li class="active">about us</li>
@@ -154,38 +155,37 @@
                 <div class="col-lg-6">
                     <div class="about-img mb-40">
 
-                        <img style="padding-top:10%" src="{{asset('Lummii_Energy_Logo_Mark_Full_Color_RGB_700px@72ppi.png')}}" alt="">
+                        <img style="padding-top:10%"
+                             src="{{asset('Lummii_Energy_Logo_Mark_Full_Color_RGB_700px@72ppi.png')}}" alt="">
 
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content-box mb-40">
-                        <h2>Who We Are</h2>
-                        <p>Lummii Energy is a global energy efficiency solutions provider based in the United Kingdom
-                            and with operations in UK, USA, Europe and Southern Africa. Lummii Energy was born out of a
-                            partnership with BEST Energy, a renowned UK energy efficiency company that has been
-                            revolutionising the energy efficiency market across more than 50 countries since 2006. In a
-                            world where energy challenges are growing ranging from the generation type’s impact on
-                            climate change, energy security and spiralling costs, Best Energy sought to find the best
-                            energy source out there which is easier to access than Wind, cheaper than Solar and Cleaner
-                            than geothermal energy and the answer was ENERGY EFFICIENCY. </p>
-                        <p>
-                            The greatest challenge in achieving energy efficiency has been that energy wastage is
-                            invisible and unless you make the invisible visible you can not manage it. Lummii Energy
-                            combines the best in hardware and software to measure on a second by second energy drawn
-                            across multiple circuits and posts this data onto a cloud platform from where powerful
-                            analytics are then performed to identify potential areas of energy savings which are then
-                            implemented resulting in energy savings ranging from 18 to 40%.
+                        <h2>Who <span>We Are.</span></h2>
+                        <p style="color: black;text-align: justify">
+                            We are a next generation climate conscious energy business committed to revolutionising the
+                            energy landscape by aggressively scaling solar generation and adopting energy efficiency.
+                            Our vision is to be a catalyst for a sustainable and uninterrupted energy future, providing
+                            reliable and fully funded solar generation and energy efficiency solutions.
+                            Under our solar division we specialise in rooftop solar solutions which are then packaged in
+                            a unique innovative way to create bankable & scaleable solutions per country.
+                            <br/>
+                            <br/>
+                            Under our energy efficiency division we combine powerful hardware with intuitive cloud based
+                            software and harness the power of big data, IOT and AI to provide the most comprehensive
+                            energy management solution available to businesses.
+                            <br>
+                            <br>
+                            By combining powerful hardware with intuitive cloud
+                            based software we harness the power of Big Data, IoT and AI to provide the most
+                            comprehensive energy management solution available
+                            to businesses across various sectors including Industry, Mining, QSR, Super & Convenience
+                            Stores, Commercial etc. We guarantee energy savings that directly impact your bottom line
+                            whilst in the process helping you to meet your business’ climate targets.
                         </p>
-                        <p>
-                            Our energy saving solutions and the technology behind have been tested for years and we have
-                            total confidence in them. To that extent we don't ask you to make a capital outlay, instead
-                            the solution is paid for through demonstrated energy savings which will be split between
-                            your company and ourselves over an agreed contract period.
-                            <strong style="font-weight: bolder;">Our ethos is clear and simple -
-                                NO SAVINGS NO PAYMENT</strong>
-                        </p>
-                        <p>Our solutions are used by top brand institutions across the globe including:</p>
+                        <h4>At Lummii our mission is to bring fully funded innovative off the book every solution
+                            addresses.</h4>
 
                     </div>
                 </div>
@@ -204,13 +204,13 @@
                         professionals with vast experience across various sectors including:
 
                     </p>
-                <br/>
+                    <br/>
 
                     <table>
 
                         <tr>
                             <td>
-                                <h3 style="text-align:center;color: black;"><i class="fa fa-bolt"></i> </h3>
+                                <h3 style="text-align:center;color: black;"><i class="fa fa-bolt"></i></h3>
                             </td>
                             <td>
                                 <h5 style="color: black; font-size: 17px">Electrical and Electronics Engineering</h5>
@@ -218,7 +218,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <h3 style="text-align:center;color: black;"><i class="fa fa-i-cursor"></i><i class="fa fa-text-width"></i></h3>
+                                <h3 style="text-align:center;color: black;"><i class="fa fa-i-cursor"></i><i
+                                        class="fa fa-text-width"></i></h3>
                             </td>
                             <td>
                                 <h5 style="color: black; font-size: 17px">IT,
@@ -277,23 +278,44 @@
     </section>
 
 
-    <div style="margin-top: -100px" class="container">
+    <div class="container">
         <h2 align="center">OUR PARTNER NETWORK CLIENTS</h2>
         <br/>
-        <section class="customer-logos slider">
+        <section class="customer-logos slider ">
 
-            <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/mercedes.png')}}"></div>
+            <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/mercedes.png')}}">
+            </div>
             <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/kfc.png')}}"></div>
             <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/rolls.png')}}"></div>
-            <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/mcdonalds.png')}}"></div>
-            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/7eleven.png')}}"></div>
-            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/britvic.png')}}"></div>
-            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/gsk.jpg')}}"></div>
-            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/lap.png')}}"></div>
-            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/nandos.png')}}"></div>
+            <div class="slide"><img style="height: 100%;align-items: center" src="{{asset('clients/mcdonalds.png')}}">
+            </div>
+            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
+                                    src="{{asset('clients/7eleven.png')}}"></div>
+            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
+                                    src="{{asset('clients/britvic.png')}}"></div>
+            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
+                                    src="{{asset('clients/gsk.jpg')}}"></div>
+            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
+                                    src="{{asset('clients/lap.png')}}"></div>
+            <div class="slide"><img style="padding-top:50px;height: 100%;align-items: center"
+                                    src="{{asset('clients/nandos.png')}}">
+
+            </div>
+
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/trina.png')}}">
+            </div>
+
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/growatt.png')}}">
+            </div>
+            <div class="slide">
+                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/atess.jpeg')}}">
+            </div>
 
         </section>
     </div>
+
 
     <hr/>
     <hr/>

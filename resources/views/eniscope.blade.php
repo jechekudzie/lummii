@@ -12,7 +12,11 @@
             text-align: left;
             padding: 8px;
         }
-
+        .nav-pills .nav-link.active {
+            background-color: #f9580e; /* Set the background color for the active link */
+            border-color: #f9580e; /* Set the border color for the active link */
+            color: #fff; /* Set the text color for the active link */
+        }
     </style>
 
     <!--====== Start breadcrumbs section ======-->
@@ -142,7 +146,7 @@
                 <div class="col-lg-12">
                     <ul style="color: white;" class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a style="font-size: x-large" class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                            <a style="font-size: x-large;" class="nav-link active" id="pills-home-tab" data-toggle="pill"
                                href="#pills-home"
                                role="tab"
                                aria-controls="pills-home" aria-selected="true">The Hardware</a>
@@ -153,6 +157,7 @@
                                aria-controls="pills-profile" aria-selected="false">The Software</a>
                         </li>
                     </ul>
+
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                              aria-labelledby="pills-home-tab">

@@ -20,6 +20,12 @@ Route::get('/', function () {
 Route::get('/renewable-energy', function () {
     return view('solar');
 })->name('renewable-energy');
+
+Route::get('/energy-efficiency', function () {
+    return view('energy_efficiency');
+})->name('energy-efficiency');
+
+
 Route::get('/eniscope', function () {
     return view('eniscope');
 })->name('eniscope');

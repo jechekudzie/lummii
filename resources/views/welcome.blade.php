@@ -220,7 +220,7 @@
                 <div class="col-lg-6">
                     <div class="about-content-box">
                         <div class="section-title mb-25">
-                            <h2>Lummii <span>Energy Efficiency</span>Division</h2>
+                            <h2>About <span>Lummii</span></h2>
                         </div>
                         <p style="color: black;text-align: justify">
 
@@ -252,6 +252,138 @@
     </section>
     <!--====== End About section ======-->
 
+    <section class="project-area-v1">
+        <div class="project-main-section">
+            <div class="project-bg bg_cover"
+                 style="background-image: url('https://ik.imagekit.io/rc123/BestEnergy/wp-content/uploads/2018/03/solutions-city-energy-night-2.jpg');"></div>
+            <div class="container">
+                <div class="col-lg-8">
+                    <div class="section-title section-white-title mb-100">
+                        <h2>Treble Renewables and Double <span>Efficiency, COP28 Objective.</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-slide-wrapper">
+            <div class="container">
+                <div class="row project-slide-one">
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('usage.jpg')}}" style="width: 400px; height: 200px"
+                                     style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Monitor Your Energy Usage</span>
+                                <h4><a href="#">Eniscope</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Candles.png')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Sustainable Energy for a Brighter Africa</span>
+                                <h4><a href="#">Illuminate Your World with Lummii Solar</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('qsr.jpg')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Reduce Energy Waste</span>
+                                <h4><a href="#">QSR</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Rural Project.png')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Harness the Sun</span>
+                                <h4><a href="#"> Empower Your Community.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('commercial.jpg')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Reduce Energy Waste</span>
+                                <h4><a href="#">Commercial Efficiency</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/School.jpg')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Join the Solar Revolution with Lummii</span>
+                                <h4><a href="#">Powering Progress: One Rooftop at a Time.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('monitor.jpg')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Meet Your Reduction Targets</span>
+                                <h4><a href="#">Energy, Cost, Carbon Footprints</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('solar/Hut Solar.png')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Energy independence</span>
+                                <h4><a href="#">Environmental stewardship.</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="{{asset('buildings.jpg')}}" style="width: 400px; height: 200px" alt="">
+
+                            </div>
+                            <div class="project-info">
+                                <span class="span">Effectively Maintain Your Buildings</span>
+                                <h4><a href="#">Predictive Maintenance</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section style="margin-top: 15px;" class="cta-area-v1">
         <div class="container-fluid">
             <div class="cta-wrapper main-bg">
@@ -267,14 +399,13 @@
         </div>
     </section>
 
-    <!--====== Start About Solar section ======-->
     <section style="margin-top: 30px;" class="about-area-v1 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="">
                         <div class="section-title mb-3">
-                            <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
+                            <h2>Lummii Solar Division<span class="thin">Powering Africa with the Sun.</span></h2>
                         </div>
 
                         <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to
@@ -344,47 +475,30 @@
             </div>
         </div>
     </section>
-    <!--====== End About section ======-->
+
     <div class="container">
         <h2 style="text-align: center" >OUR PARTNER NETWORK CLIENTS</h2>
         <br/>
         <section class="customer-logos slider ">
+
             <div class="slide">
-                <img style="height: 100%;align-items: center" src="{{asset('clients/mercedes.png')}}">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/1.jpg')}}">
             </div>
             <div class="slide">
-                <img style="height: 100%;align-items: center" src="{{asset('clients/kfc.png')}}">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/2.jpg')}}">
             </div>
             <div class="slide">
-                <img style="height: 100%;align-items: center" src="{{asset('clients/rolls.png')}}">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/3.jpg')}}">
             </div>
             <div class="slide">
-                <img style="height: 100%;align-items: center" src="{{asset('clients/mcdonalds.png')}}">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/4.jpg')}}">
             </div>
             <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/7eleven.png')}}">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/5.jpg')}}">
+            </div><div class="slide">
+                <img style="height: 100%;align-items: center" src="{{asset('partners/6.jpg')}}">
             </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/britvic.png')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/gsk.jpg')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/lap.png')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/nandos.png')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/trina.png')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/growatt.png')}}">
-            </div>
-            <div class="slide">
-                <img style="padding-top:50px;height: 100%;align-items: center" src="{{asset('clients/atess.jpeg')}}">
-            </div>
+
         </section>
     </div>
 
@@ -406,8 +520,6 @@
             </div>
         </div>
     </section>
-
-    <hr/>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -437,4 +549,5 @@
             });
         });
     </script>
-@stop
+
+@endsection

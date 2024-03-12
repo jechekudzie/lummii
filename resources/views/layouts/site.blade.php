@@ -111,34 +111,34 @@
                                            class="{{ Request::routeIs('/') ? 'active' : '' }}"
                                         >Home</a>
                                     </li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('renewable-energy')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('renewable-energy')}}"
                                                              class="{{ Request::routeIs('renewable-energy') ? 'active' : '' }}"
                                         >Renewable Energy</a>
                                     </li>
 
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('energy-efficiency')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('energy-efficiency')}}"
                                                              class="{{ Request::routeIs('energy-efficiency') ? 'active' : '' }}"
                                         >Energy Efficiency</a>
                                     </li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('eniscope')}}" class="{{ Request::routeIs('eniscope') ? 'active' : '' }}">
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('eniscope')}}" class="{{ Request::routeIs('eniscope') ? 'active' : '' }}">
                                             Eniscope
                                         </a>
                                     </li>
 
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('case_studies')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('case_studies')}}"
                                                              class="{{ Request::routeIs('case_studies') ? 'active' : '' }}"
                                         >EE Case Studies</a></li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('solutions')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('solutions')}}"
                                                              class="{{ Request::routeIs('solutions') ? 'active' : '' }}"
                                         >EE Solutions</a>
                                     </li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('technologies')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('technologies')}}"
                                                              class="{{ Request::routeIs('technologies') ? 'active' : '' }}"
                                         >EE Technologies</a></li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('about')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('about')}}"
                                                              class="{{ Request::routeIs('about') ? 'active' : '' }}"
                                         >About us</a></li>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('contact')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('contact')}}"
                                                              class="{{ Request::routeIs('contact') ? 'active' : '' }}"
                                         >Contact</a></li>
 

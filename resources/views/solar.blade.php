@@ -166,10 +166,10 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero-content">
-                                <h1 style="font-size: 80px;">
+                                <h1 style="">
                                     Sustainable Energy for A Brighter Africa
                                 </h1>
-                                <h4 style="font-size: 30px;">
+                                <h4 style="font-size: 30px; line-height: normal; ">
                                     <strong
                                         style="font-weight: bold;color: #f9580e;">POWERING PROGRESS, ONE ROOFTOP AT A TIME</strong>
                                 </h4>
@@ -191,7 +191,7 @@
                 <div class="col-lg-6">
                     <div class="">
                         <div class="section-title mb-3">
-                            <h2>Lummii Solar <span class="thin">Powering Africa with the Sun.</span></h2>
+                            <h2>Lummii Solar Division <span class="thin">Powering Africa with the Sun.</span></h2>
                         </div>
 
                         <p style="color: black;text-align: justify">Introducing Lummii's Solar Division, dedicated to

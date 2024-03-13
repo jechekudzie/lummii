@@ -105,9 +105,9 @@
                             <div class="navbar-close">
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
-                            <nav class="main-menu">
+                            <nav style="background-color: #f9580e" class="main-menu">
                                 <ul>
-                                    <li class="menu-item"><a style="color: black; font-size: 17px;font-weight: bold;" href="{{route('home')}}"
+                                    <li class="menu-item"><a style="color: white; font-size: 17px;font-weight: bold;" href="{{route('home')}}"
                                            class="{{ Request::routeIs('/') ? 'active' : '' }}"
                                         >Home</a>
                                     </li>

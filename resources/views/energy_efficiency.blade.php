@@ -569,7 +569,7 @@
 
 
     <div class="container">
-        <h2 align="center">OUR PARTNER NETWORK CLIENTS</h2>
+        <h2 align="center">OUR PARTNER NETWORK</h2>
         <br/>
         <section class="customer-logos slider">
 

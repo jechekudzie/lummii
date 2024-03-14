@@ -358,8 +358,8 @@
                     <h3 style="color: #f9580e;margin-top: 20px;">Explore more or get in touch with the team at Lummii.
                     </h3>
                     <br>
-                    <a style="margin: 20px;" href="http://localhost:8000/technologies" class="main-btn">Explore More</a>
-                    <a style="margin: 20px;" href="http://localhost:8000/contact" class="main-btn">Contact us</a>
+                    <a style="margin: 20px;" href="{{route('technologies')}}" class="main-btn">Explore More</a>
+                    <a style="margin: 20px;" href="{{route('contact')}}" class="main-btn">Contact us</a>
                 </div>
             </div>
         </div>

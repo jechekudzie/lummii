@@ -1,23 +1,23 @@
 @extends('layouts.site')
 @section('content')
     <!--====== Start breadcrumbs-section ======-->
-    <section class="breadcrumbs-section bg_cover"
-             style="background-image: url('https://ik.imagekit.io/rc123/BestEnergy/wp-content/uploads/2018/03/technology-development-header-2.jpg');">
+    <section class="breadcrumbs-section bg_cover" style="background-image: url('https://ik.imagekit.io/rc123/BestEnergy/wp-content/uploads/2018/03/solutions-city-energy-night-2.jpg');
+    background-color: black;
+">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="breadcrumbs-content">
                         <h1>Technologies</h1>
-                        <ul class="link">
+                        {{--<ul class="link">
                             <li><a href="index.html">Home</a></li>
-                            <li class="active">technologies</li>
-                        </ul>
+                            <li class="active">about us</li>
+                        </ul>--}}
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--====== End breadcrumbs-section ======-->
-    <!--====== Start project-details-page-section ======-->
+    </section>
     <section class="project-details-page-section pt-130">
         <div class="container">
             <div class="row project-details-wrapper">
